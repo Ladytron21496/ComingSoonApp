@@ -1,0 +1,38 @@
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+}
+
+img {
+  height: 50vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-container {
+  display: flex;
+  width: 30vw;
+  margin: 7vh;
+  justify-content: space-between;
+}
+
+h2,
+h3 {
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1030px) {
+  .time-container {
+    width: 79vw;
+  }
+}
