@@ -1,5 +1,5 @@
 function geTime() {
-  let launch = new Date("26 July 2021 00:00:00").getTime();
+  let launch = new Date("26 July 2025 00:00:00").getTime();
   let current = new Date().getTime();
   let diff = launch - current;
 
